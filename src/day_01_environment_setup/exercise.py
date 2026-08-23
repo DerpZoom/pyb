@@ -16,6 +16,7 @@ def toolchain_check() -> str:
         ["uv", "--version"],
         capture_output=True,
         text=True,
+        check=False,   # a commissioning check REPORTS a bad result, it doesn't abort
     )
     uv_version = uv_result.stdout.strip()
     uv_line = f"uv toolchain — {uv_version}" if uv_version else "uv toolchain — NOT FOUND"
