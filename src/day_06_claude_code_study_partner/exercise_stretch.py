@@ -3,8 +3,8 @@
 Scans the pyb repo for completed day folders and prints a ready-to-paste
 prompt you can hand to Claude Code to quiz yourself on the week's material.
 """
-import argparse                                # stdlib CLI parser (previewed before Day 17)
-from pathlib import Path                       # pathlib gives clean, OS-safe paths
+import argparse  # stdlib CLI parser (previewed before Day 17)
+from pathlib import Path  # pathlib gives clean, OS-safe paths
 
 # Resolve src/ relative to THIS file, not the shell's working directory,
 # so the script works no matter where you launch it from.

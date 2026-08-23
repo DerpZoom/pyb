@@ -3,8 +3,8 @@
 Scans the pyb repo for completed day folders and prints a ready-to-paste
 prompt you can hand to Claude Code to quiz yourself on the week's material.
 """
-from pathlib import Path                       # pathlib gives clean, OS-safe paths
- 
+from pathlib import Path  # pathlib gives clean, OS-safe paths
+
 # Resolve src/ relative to THIS file, not the shell's working directory,
 # so the script works no matter where you launch it from.
 SRC = Path(__file__).resolve().parents[1]      # .../pyb/src

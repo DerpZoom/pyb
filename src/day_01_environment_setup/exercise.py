@@ -1,7 +1,7 @@
-import sys
 import platform
 import subprocess
- 
+
+
 def toolchain_check() -> str:
     """Confirm the interpreter uv handed us is the one we expect,
     and that uv itself is reachable from inside Python."""
