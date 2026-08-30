@@ -1,0 +1,4 @@
+{
+    "python.analysis.extraPaths": ["./src/day_08_exceptions"],
+    "python.analysis.typeCheckingMode": "basic"
+}
