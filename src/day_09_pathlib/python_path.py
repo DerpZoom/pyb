@@ -30,7 +30,7 @@ READINGS = [
     ("FT-200", 8.9),
 ]
 
-print("/n")
+print("\n")
 print("-"*150)
 print(f"READINGS\t\t= {READINGS}")
 print(f"Type(READINGS)\t\t= {type(READINGS)}")
