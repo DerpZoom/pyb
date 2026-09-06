@@ -1,0 +1,7 @@
+tag,quality,value
+Pump1/Speed,GOOD,1750.0
+Pump1/Speed,GOOD,1751.5
+Pump1/Speed,BAD,0
+Tank2/Level,GOOD,42.25
+Tank2/Level,GOOD,,
+Tank2/Level,GOOD,N/A
