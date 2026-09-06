@@ -1,0 +1,14 @@
+{
+  "Pump1/Speed": {
+    "count": 2,
+    "max": 1751.5,
+    "mean": 1750.75,
+    "min": 1750.0
+  },
+  "Tank2/Level": {
+    "count": 1,
+    "max": 42.25,
+    "mean": 42.25,
+    "min": 42.25
+  }
+}
